@@ -2,6 +2,7 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --additional-text-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
   --additional-background-color: #2f303a;
@@ -43,6 +44,10 @@ body {
   line-height: 1.09;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.header-nav .link {
+  color: var(--primary-text-color);
 }
 
 .header-contacts .link {
@@ -146,6 +151,7 @@ body {
 }
 
 .team-member-name {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.1875;
 }
@@ -181,7 +187,12 @@ body {
   list-style-type: none;
 }
 
+.projects .projects-link {
+  text-decoration: none;
+}
+
 .projects .title {
+  color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -223,7 +234,7 @@ body {
 }
 
 .footer-contacts .link {
-  color: var(--secondary-text-color);
+  color: var(--additional-text-color);
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
