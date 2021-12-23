@@ -235,6 +235,7 @@ body {
 
 .footer-contacts .link {
   color: var(--additional-text-color);
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.71;
